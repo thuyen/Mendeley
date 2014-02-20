@@ -8,7 +8,7 @@ try:
 except:
   from pysqlite2 import dbapi2 as sqlite3
 
-class MendeleyDB:
+class Mendeley:
   """
   Mendeley database class for accessing the database
   """
@@ -169,7 +169,7 @@ if __name__ == "__main__":
   database = sys.argv[1]
   pdfs = sys.argv[2]
 
-  with MendeleyDB(database, pdfs) as mdl:
+  with Mendeley(database, pdfs) as mdl:
     mdl.file_organizer()
 
 
