@@ -1,0 +1,11 @@
+This is how I organize/sync my mendeley database
+
+All papers are in ~/Papers, which is linked to dropbox
+Mendeley sqlite database is move to ~/Papers, which is linked back to orginial location
+This way all papers and sqlite data are synchorized acros all machine. I turn off the cloud sync in Mendeley.
+
+I created a shell mdl.sh and run it at start up. This will organize files into categories within ~/Papers
+
+Be careful, backup your data before trying this.
+
+
