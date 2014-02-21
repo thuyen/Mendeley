@@ -1,7 +1,7 @@
-This is how I organize/sync my mendeley database using this scripts.
+This is how I organize/sync my mendeley database using this scripts:
 
-Mendeley sqlite database is moved to ~/Papers, which is linked back to orginial location. This way all papers and sqlite data are synchorized across all machines. I turned off the cloud sync in my Mendeley.
+Mendeley sqlite database is moved to ~/Papers/Mendeley, which is linked back to orginial location. This way all papers and sqlite data are synchorized across all machines through dropbox. I turned off the cloud sync in my Mendeley.
 
-I created a shell script mdl.sh and run it at startup. This will organize all pdfs into categories within ~/Papers
+I created a shell script mdl.sh at ~/Papers/Mendeley and run it at startup. This will organize all pdfs into categories within ~/Papers
 
 Be careful, backup your data before trying this.
