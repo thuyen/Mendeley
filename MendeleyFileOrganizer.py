@@ -8,7 +8,8 @@ try:
 except:
   from pysqlite2 import dbapi2 as sqlite3
 
-class Mendeley:
+
+class Mendeley(object):
   """
   Mendeley database class for accessing the database
   """
@@ -55,7 +56,7 @@ class Mendeley:
 
   def get_localUrl(self, file_hash):
     """
-    Get the file directory 
+    Get the file directory
     """
     self.cursor.execute(
         "SELECT localUrl FROM Files WHERE hash = ?", (file_hash, ))

@@ -1,3 +1,4 @@
+### Mendeley File Organizer
 The script will help you rename your pdfs into the format: LastName_Year_Journal_Title.pdf and move the file into its category folder. 
 
 This is how I organize/sync my mendeley database using this scripts:
